@@ -1,9 +1,11 @@
-import React from 'react'
+import Layout from "../Layout/Layout";
 
 function HomeScreen() {
   return (
-    <div>HomeScreen</div>
-  )
+    <Layout>
+      <div>HomeScreen</div>
+    </Layout>
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;
